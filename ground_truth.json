@@ -1,0 +1,58 @@
+{
+  "01_sqli_fstring.py": {
+    "vulnerable": true,
+    "cwe": "CWE-89",
+    "line": 5
+  },
+  "02_sqli_param.py": {
+    "vulnerable": false
+  },
+  "03_cmdi_concat.py": {
+    "vulnerable": true,
+    "cwe": "CWE-78",
+    "line": 4
+  },
+  "04_cmdi_list.py": {
+    "vulnerable": false
+  },
+  "05_secret_hardcoded.py": {
+    "vulnerable": true,
+    "cwe": "CWE-798",
+    "line": 3
+  },
+  "06_secret_env.py": {
+    "vulnerable": false
+  },
+  "07_path_traversal.py": {
+    "vulnerable": true,
+    "cwe": "CWE-22",
+    "line": 6
+  },
+  "08_path_checked.py": {
+    "vulnerable": false
+  },
+  "09_pickle_loads.py": {
+    "vulnerable": true,
+    "cwe": "CWE-502",
+    "line": 4
+  },
+  "10_json_loads.py": {
+    "vulnerable": false
+  },
+  "11_md5_password.py": {
+    "vulnerable": true,
+    "cwe": "CWE-327",
+    "line": 4
+  },
+  "12_scrypt_password.py": {
+    "vulnerable": false
+  },
+  "13_sqli_percent.py": {
+    "vulnerable": true,
+    "cwe": "CWE-89",
+    "line": 5
+  },
+  "14_system_constant.py": {
+    "vulnerable": false
+  }
+}

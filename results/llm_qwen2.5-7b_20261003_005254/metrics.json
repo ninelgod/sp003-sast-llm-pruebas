@@ -1,0 +1,20 @@
+{
+  "precision": 0.5,
+  "recall": 0.571,
+  "f1": 0.533,
+  "fpr_archivos_seguros": 0.286,
+  "tasa_alucinacion": 0.0,
+  "tp": 12,
+  "fp": 12,
+  "fn": 9,
+  "hallucinated": 0,
+  "findings": 24,
+  "consistencia": 1.0,
+  "json_invalido": 6,
+  "latencia_media_s": 2.25,
+  "tool_calls_total": 0,
+  "modo": "llm",
+  "modelo": "qwen2.5:7b",
+  "corridas": 3,
+  "archivos": 14
+}

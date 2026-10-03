@@ -1,0 +1,6 @@
+precision,recall,f1,fpr_archivos_seguros,tasa_alucinacion,tp,fp,fn,hallucinated,findings,consistencia,json_invalido,latencia_media_s,tool_calls_total,modo,modelo,corridas,archivos
+0.857,0.857,0.857,0.143,0.0,6,1,1,0,7,1.0,0,2.05,0,sast,semgrep,1,14
+0.5,0.571,0.533,0.286,0.0,12,12,9,0,24,1.0,6,2.25,0,llm,qwen2.5:7b,3,14
+0.654,0.81,0.723,0.429,0.0,17,9,4,0,26,0.929,4,4.49,84,hybrid,qwen2.5:7b,3,14
+0.857,0.857,0.857,0.143,0.0,18,3,3,0,21,1.0,6,4.3,42,hybrid,llama3.1:8b,3,14
+0.25,0.286,0.267,0.714,0.0,6,18,15,0,24,1.0,18,1.25,0,llm,llama3.1:8b,3,14

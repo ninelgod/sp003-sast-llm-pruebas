@@ -1,0 +1,20 @@
+{
+  "precision": 0.857,
+  "recall": 0.857,
+  "f1": 0.857,
+  "fpr_archivos_seguros": 0.143,
+  "tasa_alucinacion": 0.0,
+  "tp": 6,
+  "fp": 1,
+  "fn": 1,
+  "hallucinated": 0,
+  "findings": 7,
+  "consistencia": 1.0,
+  "json_invalido": 0,
+  "latencia_media_s": 2.05,
+  "tool_calls_total": 0,
+  "modo": "sast",
+  "modelo": "semgrep",
+  "corridas": 1,
+  "archivos": 14
+}

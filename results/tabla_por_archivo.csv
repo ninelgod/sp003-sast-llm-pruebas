@@ -1,0 +1,15 @@
+﻿Archivo,Real,SAST,A · LLM,A · Híbrido,B · LLM,B · Híbrido
+01_sqli_fstring.py,Vuln.,TP,TP,TP,FN*,TP
+02_sqli_param.py,Seguro,TN,TN,TN,TN*,TN
+03_cmdi_concat.py,Vuln.,TP,TP,FN*,FP+FN,TP
+04_cmdi_list.py,Seguro,TN,TN,TN,TN*,TN
+05_secret_hardcoded.py,Vuln.,TP,FP+FN,TP,FN*,TP
+06_secret_env.py,Seguro,TN,FP,FP,FP,TN
+07_path_traversal.py,Vuln.,TP,TP,TP,TP,TP
+08_path_checked.py,Seguro,TN,FP,TN,FP,TN*
+09_pickle_loads.py,Vuln.,TP,FP+FN,TP,TP,TP
+10_json_loads.py,Seguro,TN,TN*,FP,FP,TN*
+11_md5_password.py,Vuln.,TP,TP,FN*,FN*,TP
+12_scrypt_password.py,Seguro,TN,TN,TN,FP,TN
+13_sqli_percent.py,Vuln.,FN,FN*,TP,FN*,FN
+14_system_constant.py,Seguro,FP,TN,FP,FP,FP

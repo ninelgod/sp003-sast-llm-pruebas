@@ -1,0 +1,39 @@
+rules:
+  - id: sqli-concat-fstring
+    languages: [python]
+    severity: ERROR
+    message: SQL construida por interpolacion o concatenacion
+    metadata: {cwe: "CWE-89"}
+    pattern-either:
+      - pattern: $C.execute(f"...{...}...")
+      - pattern: $C.execute($Q + ...)
+  - id: os-system
+    languages: [python]
+    severity: ERROR
+    message: Uso de os.system
+    metadata: {cwe: "CWE-78"}
+    pattern: os.system(...)
+  - id: hardcoded-secret
+    languages: [python]
+    severity: ERROR
+    message: Posible secreto en codigo fuente
+    metadata: {cwe: "CWE-798"}
+    pattern-regex: '(?i)(api[_-]?key|secret|token|password)\s*=\s*["''][A-Za-z0-9_\-]{16,}["'']'
+  - id: path-join-open
+    languages: [python]
+    severity: WARNING
+    message: open() sobre ruta construida con entrada externa
+    metadata: {cwe: "CWE-22"}
+    pattern: open(os.path.join(...))
+  - id: pickle-loads
+    languages: [python]
+    severity: ERROR
+    message: Deserializacion insegura con pickle
+    metadata: {cwe: "CWE-502"}
+    pattern: pickle.loads(...)
+  - id: weak-hash-md5
+    languages: [python]
+    severity: WARNING
+    message: Hash debil MD5
+    metadata: {cwe: "CWE-327"}
+    pattern: hashlib.md5(...)
