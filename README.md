@@ -2,8 +2,6 @@
 
 Spike de investigación técnica SP-003 de la épica EP-003 (Auditoría Automática de Seguridad y Vulnerabilidades), parte del proyecto *Sistema multiagente para auditoría de software* (Taller Integrador I).
 
-**Responsable:** Emilio Jean Alfaro Loyola
-
 ## Objetivo
 
 Comprobar en la práctica qué tan bien identifica vulnerabilidades estáticas un modelo de lenguaje con Tool Calling, y compararlo con un análisis SAST tradicional. Se miden tres cosas: precisión, alucinación y soporte de herramientas.
