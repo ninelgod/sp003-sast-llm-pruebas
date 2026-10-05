@@ -1,4 +1,4 @@
-# SP-003 · Modelos LLM y Tool Use para análisis SAST
+# Modelos LLM y Tool Use para análisis SAST
 
 Spike de investigación técnica SP-003 de la épica EP-003 (Auditoría Automática de Seguridad y Vulnerabilidades), parte del proyecto *Sistema multiagente para auditoría de software* (Taller Integrador I).
 
